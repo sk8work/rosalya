@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
     padding-top: 80px;
     padding-bottom: 20px;
     letter-spacing: 1px;
+    font-family: lobster;
+    font-size: 2rem;
+}
+
+strong {
+    font-weight: normal;
 }
 
 /*.navbar a {
@@ -29,13 +37,31 @@ textarea {
     max-width: 280px;
 }
 
+button, a {
+    border-radius: 3px;
+}
+
 .navbar-collapse {
     background-color: white;
 }
-/*
+
 .navbar-brand {
-    margin-top: 10px 0;
-}*/
+    font-size: 2rem;
+}
+
+.navbar-nav li{
+    border-bottom: 2px solid white;
+    transition: all .5s ease-out;
+}
+
+    .navbar-nav li:hover {
+        border-bottom: 2px solid goldenrod;
+    }
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: goldenrod !important;
+}
 
 .navbar-fixed-top {
     background-color: white;
@@ -43,26 +69,28 @@ textarea {
 }
 
 .navbar-header button {
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: goldenrod;
+    border: 1px solid goldenrod;
 }
 
 .navbar-header span {
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: goldenrod;
+    border: 1px solid goldenrod;
 }
 
 .header-info {
+    font-family: lobster;
     background-image: url(/Images/106872813.png);
     background-size: cover;
     min-width: inherit;
     min-height: 400px;
+    color: goldenrod;
 }
 
 .wrap-header-info {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(0,0,0, .4);
     min-height: inherit;
-    color: white;
+    color: darkgoldenrod;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +101,7 @@ textarea {
     justify-self: center;
     align-content: center;
     text-align: center;
+    font-size: 5rem;
 }
 
 .wrap-header-info h1, .wrap-header-info p {
@@ -81,16 +110,17 @@ textarea {
 
 .header-info a {
     text-decoration: none;
-    color: white;
+    color: goldenrod;
     font-size: 2rem;
-    border: 1px solid white;
-    padding: 1rem;
+    border: 1px solid palegoldenrod;
+    padding: 15px 20px;
     transition: all .4s ease-out;
     background-color: none;
 }
+
 .header-info a:hover {
-    background-color: white;
-    color: #007bff;
+    background-color: palegoldenrod;
+    color: darkgoldenrod;
 }
 
 .card {
@@ -99,7 +129,7 @@ textarea {
 
 .card-body a {
     text-decoration: none;
-    color: #007bff;
+    color: darkgoldenrod;
     font-size: 1.5rem;
     border: 1px, solid, white;
     padding: 15px;
@@ -110,8 +140,8 @@ textarea {
 }
 
 .card-body a:hover {
-    background-color: #007bff;
-    border: 1px, solid, #007bff;
+    background-color: darkgoldenrod;
+    border: 1px, solid, white;
     color: white;
     padding-left: 15px;
 }
@@ -121,7 +151,7 @@ section {
 }
 
 article {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .card-img {
