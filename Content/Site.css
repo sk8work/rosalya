@@ -43,13 +43,13 @@ textarea {
 }
 
 .navbar-header button {
-    color: #23527c;
-    border: 1px solid #23527c;
+    color: #007bff;
+    border: 1px solid #007bff;
 }
 
 .navbar-header span {
-    color: #23527c;
-    border: 1px solid #23527c;
+    color: #007bff;
+    border: 1px solid #007bff;
 }
 
 .header-info {
@@ -85,15 +85,54 @@ textarea {
     font-size: 2rem;
     border: 1px solid white;
     padding: 1rem;
-    transition: all .3s ease-out;
+    transition: all .4s ease-out;
     background-color: none;
 }
-
 .header-info a:hover {
     background-color: white;
-    color: #23527c;
+    color: #007bff;
+}
+
+.card {
+    margin-bottom: 2.5rem;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.5rem;
+    border: 1px, solid, white;
+    padding: 15px;
+    padding-left: 0;
+    transition: all .4s ease-out;
+    background-color: none;
+    font-size: 1.8rem;
+}
+
+.card-body a:hover {
+    background-color: #007bff;
+    border: 1px, solid, #007bff;
+    color: white;
+    padding-left: 15px;
 }
 
 section {
     padding-top: 40px;
+}
+
+article {
+    font-size: 1.8rem;
+}
+
+.card-img {
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.card-img img {
+    transition: all .4s ease-out;
+}
+
+.card-img img:hover {
+    transform: scale(1.1);
 }
