@@ -1,0 +1,177 @@
+﻿body {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-fixed-top {
+    padding: 2rem;
+}
+
+.header-info {
+    background-image: url(/Images/106872813.png);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    margin-top: 4rem;
+}
+
+.wrap-header-info {
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    width: 100%;
+    min-height: inherit;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrap-header-info h1, .wrap-header-info p {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.know-more {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    border: 1px solid white;
+    padding: 1rem 2rem !important;
+    font-size: 2rem;
+    transition: all 0.5s ease-out;
+}
+
+.know-more:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #2e6da4 !important;
+}
+
+.know-more:visited {
+    text-decoration: none !important;    
+    color: white;
+    background-color: none;
+    padding: 1rem 2rem !important;
+}
+
+    .know-more:active {
+        text-decoration: none !important;
+        color: white;
+        background-color: none;
+        padding: 1rem 2rem !important;
+    }
+
+    section {
+        /*margin-top: 20px !important;*/
+        padding-top: 6rem !important;
+    }
+
+.know-more-btn {
+    text-decoration: none;
+    color: #2e6da4;
+    background-color: none;
+    /*border: 1px solid #2e6da4;*/
+    padding: 1rem 2rem 1rem 0 !important;
+    font-size: 2rem;
+    transition: all 0.5s ease-out;
+    margin-top: 5rem !important;
+}
+
+.know-more-btn:hover {
+    text-decoration: none;
+    color: white !important ;
+    background-color: #2e6da4;
+    padding: 1rem 2rem 1rem 1rem !important;
+}
+
+.know-more-btn:visited {
+    text-decoration: none;
+    color: #2e6da4;
+    background-color: none;
+    padding: 1rem 2rem 1rem 0 !important;
+}
+.know-more-btn:active {
+    text-decoration: none;
+    color: #2e6da4;
+    background-color: none;
+    padding: 1rem 2rem 1rem 1rem !important;
+}
+.navbar {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white;
+
+}
+.navbar-collapse .navbar-nav li {
+    text-decoration: none;
+    font-size: 2rem ;
+}
+
+.navbar-header span {
+    color: black;
+    border: 1px solid #2e6da4;
+}
+
+.navbar-header button {
+    color: black;
+    border: 1px solid #2e6da4;
+}
+
+.card {
+    padding-bottom: 2.5rem;
+}
+
+.card-text{
+    font-size: 1.8rem;
+    letter-spacing: .5px;
+}
+
+.card-img {
+    max-width: 100%;
+    overflow: hidden;
+    max-width: inherit;
+    
+}
+
+    .card-img img {
+        transition: all .5s ease-out;
+    }
+
+    .card-img img:hover {
+        transform: scale(1.08);
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+
+.padding {
+    margin-top: 2rem !important;
+    padding-top: 180px !important;
+}
