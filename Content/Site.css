@@ -1,5 +1,5 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          body {
-    padding-top: 50px;
+body {
+    padding-top: 80px;
     padding-bottom: 20px;
     letter-spacing: 1px;
 }
@@ -27,4 +27,73 @@ input,
 select,
 textarea {
     max-width: 280px;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+/*
+.navbar-brand {
+    margin-top: 10px 0;
+}*/
+
+.navbar-fixed-top {
+    background-color: white;
+    padding-top: 10px;
+}
+
+.navbar-header button {
+    color: #23527c;
+    border: 1px solid #23527c;
+}
+
+.navbar-header span {
+    color: #23527c;
+    border: 1px solid #23527c;
+}
+
+.header-info {
+    background-image: url(/Images/106872813.png);
+    background-size: cover;
+    min-width: inherit;
+    min-height: 400px;
+}
+
+.wrap-header-info {
+    background-color: rgba(0,0,0, .5);
+    min-height: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-header-info h1 {
+    justify-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.wrap-header-info h1, .wrap-header-info p {
+    padding-bottom: 2rem;
+}
+
+.header-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    transition: all .3s ease-out;
+    background-color: none;
+}
+
+.header-info a:hover {
+    background-color: white;
+    color: #23527c;
+}
+
+section {
+    padding-top: 40px;
+}
